@@ -84,3 +84,18 @@ body {
     background-color: rgba(50, 50, 50, 0.70);
 }
 /*Trad page end*/
+
+/*mountaineering page start*/
+#mountain-index1 {
+    background-image: linear-gradient(to right bottom, rgba(6, 139, 0, 0.5), rgba(255, 255, 255, 0.5)), url(https://i.ytimg.com/vi/R4rB8B507G4/maxresdefault.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+}
+
+#mountain-p {
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.70);
+}
+/*mountaineering page end*/
