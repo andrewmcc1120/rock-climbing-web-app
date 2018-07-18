@@ -1,0 +1,86 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.container-fluid {
+    color: antiquewhite;
+}
+
+/*bouldering page start*/
+#bouldering-index1 {
+    background-image: linear-gradient(to right bottom, rgba(6, 139, 0, 0.5), rgba(255, 255, 255, 0.5)), url(https://2.bp.blogspot.com/-AO9fpJnG6oI/VtSU2XqP_vI/AAAAAAAAG6U/iBgKHAhQhDE/s1600/P1340125.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+}
+
+#bouldering-p {
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.70);
+}
+/*bouldering page end*/
+
+/*Sport page start*/
+#sport-index1 {
+    background-image: linear-gradient(to right bottom, rgba(6, 139, 0, 0.5), rgba(255, 255, 255, 0.5)), url(http://acf.cdn.epictv.com/images/episode_604918_15771_full.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+}
+
+#sport-p {
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.70);
+}
+/*sport page end*/
+
+/*Trad page start*/
+#trad-index1 {
+    background-image: linear-gradient(to right bottom, rgba(6, 139, 0, 0.5), rgba(255, 255, 255, 0.5)), url(https://i.ytimg.com/vi/fw6QBVbyDWU/maxresdefault.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+}
+
+#trad-p {
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.70);
+}
+/*Trad page end*/
